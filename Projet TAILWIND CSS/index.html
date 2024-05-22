@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+    <header>
+        <!-- Debut Nav barre  -->
+        <nav class="flex justify-between  items-center bg-red-800 p-">
+            <a href="#" class="" class="w-[64px]" alt=""><img src="img/19-03-Blog-Fitness-Training-Football-Soccer.png" class="w-[150px]" alt=""></a>
+
+            <!-- Barre de recherche -->
+        <form class="max-w-md mx-auto">   
+    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+    <div class="relative">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+        </div>
+        <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required />
+        <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-red-700 hover:bg-white-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-red-700 dark:focus:ring-blue-800">Search</button>
+    </div>
+        </form>
+             <!-- Fin barre de recherche -->
+             <!-- Les elements ul  -->
+            <ul class="flex items-center space-x-8">
+                <li class="text-white font-bold" ><a href="https://www.marca.com/futbol.html">Football</a></li>
+                <li class="text-white font-bold"><a href="https://www.marca.com/futbol.html">Basketball</a></li>
+                <li class="text-white font-bold"><a href="https://www.marca.com/futbol.html">Volleyball</a></li>
+                <li class="text-white font-bold"><a href="https://www.marca.com/futbol.html">Tenis</a></li>         
+            </ul>
+            <!-- Fin des elements ul  -->
+        </nav>
+        <!-- Fin Nav barre  -->
+    </header>
+    <h1 class="text-center text-5xl py-10">
+        Actualités
+        <span class="font-bold">Du Jour</span>
+    </h1>
+    <!-- Les articles du blog en vedette -->
+    <!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
+
+
+
+<!-- ✅ Grid Section - Starts Here 👇 -->
+<section id="Projects"
+    class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+
+    <!--   ✅ Product card 1 - Starts Here 👇 -->
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <a href="#">
+            <img src="img/Nico.png"
+                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+            <div class="px-4 py-3 w-72">
+                <span class="text-gray-400 mr-3 uppercase text-xs">Football</span>
+                <p class="text-lg font-bold text-black truncate block capitalize">Nicolas Jackson</p>
+                <div class="flex items-center">
+                        <p class="text-sm text-gray-600 ">En chute libre, l'attanquant Sénégalais...</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!--   🛑 Product card 1 - Ends Here  -->
+
+    <!--   ✅ Product card 2 - Starts Here 👇 -->
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <a href="#">
+            <img src="img/kdg.jpeg"
+                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+            <div class="px-4 py-3 w-72">
+                <span class="text-gray-400 mr-3 uppercase text-xs">Football</span>
+                <p class="text-lg font-bold text-black truncate block capitalize">Kondogbia et Marseille</p>
+                <div class="flex items-center">
+                        <p class="text-sm text-gray-600 cursor-auto ml-2">Pas de competition européenne pour les marseillais...</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!--   🛑 Product card 2- Ends Here  -->
+
+    <!-- Product card 3  -->
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <a href="#">
+            <img src="img/messi.jpg"
+                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+            <div class="px-4 py-3 w-72">
+                <span class="text-gray-400 mr-3 uppercase text-xs">Football</span>
+                <p class="text-lg font-bold text-black truncate block capitalize">Leonel Messi</p>
+                <div class="flex items-center">
+                        <p class="text-sm text-gray-600 ">8em ballon d'or, favorisé par le système...</p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+</section>
+
+<!-- 🛑 Grid Section - Ends Here -->
+    
+    <!--articles du blog en vedette -->
+    <div class="text-center p-10">
+        <h1 class="font-bold text-4xl mb-4">Les dernières Actualités</h1>
+        <h1 class="text-3xl">Tendances...</h1>
+    </div>
+
+    <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-5">
+    
+            <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center"
+                style="height: 450px; background-image:url(img/Ronaldo1.jpg);">
+                <div class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                </div>
+                <div class="absolute top-0 right-0 left-0 mx-5 mt-2 flex justify-between items-center">
+                    <a href="#"
+                        class="text-xs bg-indigo-600 text-white px-5 py-2 uppercase hover:bg-white hover:text-indigo-600 transition ease-in-out duration-500">Football</a>
+                    <div class="text-white font-regular flex flex-col justify-start">
+                        <span class="text-3xl leading-0 font-semibold">22</span>
+                        <span class="-mt-3">Mai</span>
+                    </div>
+                </div>
+                <main class="p-5 z-10">
+                    <a href="#"
+                        class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">C.Ronaldo infaillible et toujours efficace face au but
+                    </a>
+                </main>
+    
+            </div>
+    
+            <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center"
+                style="height: 450px; background-image:url(img/Lebron.jpg);">
+                <div class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                </div>
+                <div class="absolute top-0 right-0 left-0 mx-5 mt-2 flex justify-between items-center">
+                    <a href="#"
+                        class="text-xs bg-indigo-600 text-white px-5 py-2 uppercase hover:bg-white hover:text-indigo-600 transition ease-in-out duration-500">NBA</a>
+                    <div class="text-white font-regular flex flex-col justify-start">
+                        <span class="text-3xl leading-0 font-semibold">10</span>
+                        <span class="-mt-3">Mai</span>
+                    </div>
+                </div>
+                <main class="p-5 z-10">
+                    <a href="#"
+                        class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">Lebron James, meilleur tireur de 3 paniers, nouveau record
+                    </a>
+                </main>
+    
+            </div>
+    
+            <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center"
+                style="height: 450px; background-image:url(img/Vinicius-JR.jpg);">
+                <div class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                </div>
+                <div class="absolute top-0 right-0 left-0 mx-5 mt-2 flex justify-between items-center">
+                    <a href="#"
+                        class="text-xs bg-indigo-600 text-white px-5 py-2 uppercase hover:bg-white hover:text-indigo-600 transition ease-in-out duration-500">Football</a>
+                    <div class="text-white font-regular flex flex-col justify-start">
+                        <span class="text-3xl leading-0 font-semibold">20</span>
+                        <span class="-mt-3">Juin</span>
+                    </div>
+                </div>
+                <main class="p-5 z-10">
+                    <a href="#"
+                        class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">Vinicius, le meilleur joueur du monde et bientôt ballon d'or ?
+                    </a>
+                </main>
+    
+            </div>
+    
+            <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center"
+                style="height: 450px; background-image:url(img/Mohammed-Kudus.jpg);">
+                <div class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                </div>
+                <div class="absolute top-0 right-0 left-0 mx-5 mt-2 flex justify-between items-center">
+                    <a href="#"
+                        class="text-xs bg-indigo-600 text-white px-5 py-2 uppercase hover:bg-white hover:text-indigo-600 transition ease-in-out duration-500">Football</a>
+                    <div class="text-white font-regular flex flex-col justify-start">
+                        <span class="text-3xl leading-0 font-semibold">25</span>
+                        <span class="-mt-3">Mai</span>
+                    </div>
+                </div>
+                <main class="p-5 z-10">
+                    <a href="#"
+                        class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">Mohammed Kudus peut faire trembler Manchester City ?
+                    </a>
+                </main>
+    
+            </div>
+    
+        </div>
+    </div>
+    <!-- Formulaire dess newsletters -->
+    <aside
+    class="p-4 my-8 bg-white border border-gray-200 rounded-lg shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700"
+    aria-label="Subscribe to the Flowbite newsletter">
+    <h3 class="mb-3 text-xl font-medium text-gray-900 dark:text-white">Obtenez plus de mises à jour...</h3>
+    <p class="mb-5 text-sm font-medium text-gray-500 dark:text-gray-300">
+        Inscrivez-vous à notre newsletter et vous serez parmi les premiers informés des nouvelles fonctionnalités.
+    </p>
+    <form>
+        <div data-style="clean" class="flex items-end mb-3">
+            <div data-element="fields" data-stacked="false"
+                class="flex items-center w-full max-w-md mb-3 seva-fields formkit-fields">
+                <div class="relative w-full mr-3 formkit-field">
+                    <label for="member_email" class="hidden block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Adresse mail</label>
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                    </div>
+                    <input id="member_email" class="formkit-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="email_address" aria-label="Email Address" placeholder="Votre adresse mail..." required="" type="email">
+                </div>
+                <span class="px-5 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg cursor-pointer hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">S'abonner</span>
+            </div>
+        </div>
+    </form>
+    <div class="text-sm font-medium text-gray-500 dark:text-gray-300">En vous abonnant, vous acceptez <a
+            href="#" class="text-blue-600 hover:underline dark:text-blue-500">les conditions d'utilisation </a> et
+        <a class="text-blue-600 hover:underline dark:text-blue-500" href="#">la politique de confidentialité 
+        </a>.
+    </div>
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <img src="img/19-03-Blog-Fitness-Training-Football-Soccer.png" class="h-10" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Actu Sport</span>
+        </a>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-bg-white sm:mb-0 dark:text-white">
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Football</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Basketball</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Volleyball</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline">Tenis</a>
+            </li>
+        </ul>
+        
+    </div>
+    <hr class="my-6 border-white sm:mx-auto dark:border-white lg:my-8" />
+            <span class="block text-sm text-white-800 sm:text-center dark:text-white">© 2024 <a href="https://flowbite.com/" class="hover:underline">Actu Sport™</a>. Tous droits réservés.</span>
+</aside>
+<!-- Fin formulaire newsletters -->
+
+    <!-- Debut Footer  -->
+    
+    <!-- Fin Footer  -->
+</body>
+
+</html>  
